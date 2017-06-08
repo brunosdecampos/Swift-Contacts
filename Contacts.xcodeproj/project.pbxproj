@@ -12,16 +12,38 @@
 		B108213E1EE317A500FD4EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B108213C1EE317A500FD4EFE /* Main.storyboard */; };
 		B10821401EE317A500FD4EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B108213F1EE317A500FD4EFE /* Assets.xcassets */; };
 		B10821431EE317A500FD4EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10821411EE317A500FD4EFE /* LaunchScreen.storyboard */; };
+		B108214D1EE31A7200FD4EFE /* default-user.png in Resources */ = {isa = PBXBuildFile; fileRef = B108214B1EE31A7200FD4EFE /* default-user.png */; };
+		B108215A1EE33EA400FD4EFE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10821591EE33EA400FD4EFE /* CustomTextField.swift */; };
+		B1431D841EE4C525008C5007 /* AmsiPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821501EE3225100FD4EFE /* AmsiPro-Black.ttf */; };
+		B1431D851EE4C525008C5007 /* AmsiPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821511EE3225100FD4EFE /* AmsiPro-Bold.ttf */; };
+		B1431D861EE4C525008C5007 /* AmsiPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821521EE3225100FD4EFE /* AmsiPro-Light.ttf */; };
+		B1431D871EE4C525008C5007 /* AmsiPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821531EE3225100FD4EFE /* AmsiPro-Regular.ttf */; };
+		B1431D881EE4C525008C5007 /* AmsiPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821541EE3225100FD4EFE /* AmsiPro-SemiBold.ttf */; };
+		B1431D891EE4C525008C5007 /* AmsiPro-Ultra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821551EE3225100FD4EFE /* AmsiPro-Ultra.ttf */; };
+		B1431D8A1EE4C525008C5007 /* AmsiPro-XLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821561EE3225100FD4EFE /* AmsiPro-XLight.ttf */; };
+		B1431D8C1EE4C87C008C5007 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1431D8B1EE4C87C008C5007 /* CustomButton.swift */; };
+		B15416DE1EE5F673009F4AFB /* top-background.png in Resources */ = {isa = PBXBuildFile; fileRef = B15416DD1EE5F673009F4AFB /* top-background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B10821351EE317A500FD4EFE /* Contact List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contact List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10821351EE317A500FD4EFE /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10821381EE317A500FD4EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B108213A1EE317A500FD4EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B108213D1EE317A500FD4EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B108213F1EE317A500FD4EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B10821421EE317A500FD4EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B10821441EE317A500FD4EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B108214B1EE31A7200FD4EFE /* default-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-user.png"; sourceTree = "<group>"; };
+		B10821501EE3225100FD4EFE /* AmsiPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Black.ttf"; sourceTree = "<group>"; };
+		B10821511EE3225100FD4EFE /* AmsiPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Bold.ttf"; sourceTree = "<group>"; };
+		B10821521EE3225100FD4EFE /* AmsiPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Light.ttf"; sourceTree = "<group>"; };
+		B10821531EE3225100FD4EFE /* AmsiPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Regular.ttf"; sourceTree = "<group>"; };
+		B10821541EE3225100FD4EFE /* AmsiPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		B10821551EE3225100FD4EFE /* AmsiPro-Ultra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Ultra.ttf"; sourceTree = "<group>"; };
+		B10821561EE3225100FD4EFE /* AmsiPro-XLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-XLight.ttf"; sourceTree = "<group>"; };
+		B10821591EE33EA400FD4EFE /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B1431D8B1EE4C87C008C5007 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B15416DD1EE5F673009F4AFB /* top-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +60,7 @@
 		B108212C1EE317A400FD4EFE = {
 			isa = PBXGroup;
 			children = (
-				B10821371EE317A500FD4EFE /* Contact List */,
+				B10821371EE317A500FD4EFE /* Contacts */,
 				B10821361EE317A500FD4EFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +68,57 @@
 		B10821361EE317A500FD4EFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B10821351EE317A500FD4EFE /* Contact List.app */,
+				B10821351EE317A500FD4EFE /* Contacts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B10821371EE317A500FD4EFE /* Contact List */ = {
+		B10821371EE317A500FD4EFE /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				B108214F1EE31B0000FD4EFE /* Fonts */,
+				B108214A1EE31A4000FD4EFE /* Images */,
 				B10821381EE317A500FD4EFE /* AppDelegate.swift */,
+				B10821591EE33EA400FD4EFE /* CustomTextField.swift */,
+				B1431D8B1EE4C87C008C5007 /* CustomButton.swift */,
 				B108213A1EE317A500FD4EFE /* ViewController.swift */,
 				B108213C1EE317A500FD4EFE /* Main.storyboard */,
 				B108213F1EE317A500FD4EFE /* Assets.xcassets */,
 				B10821411EE317A500FD4EFE /* LaunchScreen.storyboard */,
 				B10821441EE317A500FD4EFE /* Info.plist */,
 			);
-			path = "Contact List";
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		B108214A1EE31A4000FD4EFE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B15416DD1EE5F673009F4AFB /* top-background.png */,
+				B108214B1EE31A7200FD4EFE /* default-user.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B108214F1EE31B0000FD4EFE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B10821501EE3225100FD4EFE /* AmsiPro-Black.ttf */,
+				B10821511EE3225100FD4EFE /* AmsiPro-Bold.ttf */,
+				B10821521EE3225100FD4EFE /* AmsiPro-Light.ttf */,
+				B10821531EE3225100FD4EFE /* AmsiPro-Regular.ttf */,
+				B10821541EE3225100FD4EFE /* AmsiPro-SemiBold.ttf */,
+				B10821551EE3225100FD4EFE /* AmsiPro-Ultra.ttf */,
+				B10821561EE3225100FD4EFE /* AmsiPro-XLight.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B10821341EE317A400FD4EFE /* Contact List */ = {
+		B10821341EE317A400FD4EFE /* Contacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B10821471EE317A500FD4EFE /* Build configuration list for PBXNativeTarget "Contact List" */;
+			buildConfigurationList = B10821471EE317A500FD4EFE /* Build configuration list for PBXNativeTarget "Contacts" */;
 			buildPhases = (
 				B10821311EE317A400FD4EFE /* Sources */,
 				B10821321EE317A400FD4EFE /* Frameworks */,
@@ -79,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = "Contact List";
+			name = Contacts;
 			productName = "Contact List";
-			productReference = B10821351EE317A500FD4EFE /* Contact List.app */;
+			productReference = B10821351EE317A500FD4EFE /* Contacts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,11 +145,12 @@
 				TargetAttributes = {
 					B10821341EE317A400FD4EFE = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = B10821301EE317A400FD4EFE /* Build configuration list for PBXProject "Contact List" */;
+			buildConfigurationList = B10821301EE317A400FD4EFE /* Build configuration list for PBXProject "Contacts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B10821341EE317A400FD4EFE /* Contact List */,
+				B10821341EE317A400FD4EFE /* Contacts */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +173,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1431D841EE4C525008C5007 /* AmsiPro-Black.ttf in Resources */,
+				B15416DE1EE5F673009F4AFB /* top-background.png in Resources */,
+				B1431D851EE4C525008C5007 /* AmsiPro-Bold.ttf in Resources */,
+				B1431D861EE4C525008C5007 /* AmsiPro-Light.ttf in Resources */,
+				B1431D871EE4C525008C5007 /* AmsiPro-Regular.ttf in Resources */,
+				B1431D881EE4C525008C5007 /* AmsiPro-SemiBold.ttf in Resources */,
+				B1431D891EE4C525008C5007 /* AmsiPro-Ultra.ttf in Resources */,
+				B1431D8A1EE4C525008C5007 /* AmsiPro-XLight.ttf in Resources */,
+				B108214D1EE31A7200FD4EFE /* default-user.png in Resources */,
 				B10821431EE317A500FD4EFE /* LaunchScreen.storyboard in Resources */,
 				B10821401EE317A500FD4EFE /* Assets.xcassets in Resources */,
 				B108213E1EE317A500FD4EFE /* Main.storyboard in Resources */,
@@ -136,6 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1431D8C1EE4C87C008C5007 /* CustomButton.swift in Sources */,
+				B108215A1EE33EA400FD4EFE /* CustomTextField.swift in Sources */,
 				B108213B1EE317A500FD4EFE /* ViewController.swift in Sources */,
 				B10821391EE317A500FD4EFE /* AppDelegate.swift in Sources */,
 			);
@@ -260,9 +321,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Contact List/Info.plist";
+				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.brunocampos.Contact-List";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunocampos.contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +333,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Contact List/Info.plist";
+				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.brunocampos.Contact-List";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunocampos.contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -283,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B10821301EE317A400FD4EFE /* Build configuration list for PBXProject "Contact List" */ = {
+		B10821301EE317A400FD4EFE /* Build configuration list for PBXProject "Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B10821451EE317A500FD4EFE /* Debug */,
@@ -292,13 +353,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B10821471EE317A500FD4EFE /* Build configuration list for PBXNativeTarget "Contact List" */ = {
+		B10821471EE317A500FD4EFE /* Build configuration list for PBXNativeTarget "Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B10821481EE317A500FD4EFE /* Debug */,
 				B10821491EE317A500FD4EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
