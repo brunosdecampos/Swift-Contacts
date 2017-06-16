@@ -1,4 +1,4 @@
-# New contact's screen
+# New contacts screen
 
 This is the implementation of a new contact's screen. You may use it for any features on your own apps.
 
