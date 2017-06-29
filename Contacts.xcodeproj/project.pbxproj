@@ -14,6 +14,9 @@
 		B10821431EE317A500FD4EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10821411EE317A500FD4EFE /* LaunchScreen.storyboard */; };
 		B108214D1EE31A7200FD4EFE /* default-user.png in Resources */ = {isa = PBXBuildFile; fileRef = B108214B1EE31A7200FD4EFE /* default-user.png */; };
 		B108215A1EE33EA400FD4EFE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10821591EE33EA400FD4EFE /* CustomTextField.swift */; };
+		B12DAD301F04C9710028DBBD /* preview1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12DAD2D1F04C9710028DBBD /* preview1.jpg */; };
+		B12DAD311F04C9710028DBBD /* preview2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12DAD2E1F04C9710028DBBD /* preview2.jpg */; };
+		B12DAD321F04C9710028DBBD /* preview3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B12DAD2F1F04C9710028DBBD /* preview3.jpg */; };
 		B1431D841EE4C525008C5007 /* AmsiPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821501EE3225100FD4EFE /* AmsiPro-Black.ttf */; };
 		B1431D851EE4C525008C5007 /* AmsiPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821511EE3225100FD4EFE /* AmsiPro-Bold.ttf */; };
 		B1431D861EE4C525008C5007 /* AmsiPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821521EE3225100FD4EFE /* AmsiPro-Light.ttf */; };
@@ -23,7 +26,6 @@
 		B1431D8A1EE4C525008C5007 /* AmsiPro-XLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B10821561EE3225100FD4EFE /* AmsiPro-XLight.ttf */; };
 		B1431D8C1EE4C87C008C5007 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1431D8B1EE4C87C008C5007 /* CustomButton.swift */; };
 		B15416DE1EE5F673009F4AFB /* top-background.png in Resources */ = {isa = PBXBuildFile; fileRef = B15416DD1EE5F673009F4AFB /* top-background.png */; };
-		B1AF103D1EE8F5A2003F4178 /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = B1AF103C1EE8F5A2003F4178 /* preview.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +45,11 @@
 		B10821551EE3225100FD4EFE /* AmsiPro-Ultra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-Ultra.ttf"; sourceTree = "<group>"; };
 		B10821561EE3225100FD4EFE /* AmsiPro-XLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmsiPro-XLight.ttf"; sourceTree = "<group>"; };
 		B10821591EE33EA400FD4EFE /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B12DAD2D1F04C9710028DBBD /* preview1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview1.jpg; sourceTree = "<group>"; };
+		B12DAD2E1F04C9710028DBBD /* preview2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview2.jpg; sourceTree = "<group>"; };
+		B12DAD2F1F04C9710028DBBD /* preview3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview3.jpg; sourceTree = "<group>"; };
 		B1431D8B1EE4C87C008C5007 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B15416DD1EE5F673009F4AFB /* top-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-background.png"; sourceTree = "<group>"; };
-		B1AF103C1EE8F5A2003F4178 /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 		B108214A1EE31A4000FD4EFE /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				B1AF103C1EE8F5A2003F4178 /* preview.png */,
+				B12DAD2D1F04C9710028DBBD /* preview1.jpg */,
+				B12DAD2E1F04C9710028DBBD /* preview2.jpg */,
+				B12DAD2F1F04C9710028DBBD /* preview3.jpg */,
 				B15416DD1EE5F673009F4AFB /* top-background.png */,
 				B108214B1EE31A7200FD4EFE /* default-user.png */,
 			);
@@ -176,8 +182,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12DAD321F04C9710028DBBD /* preview3.jpg in Resources */,
 				B1431D841EE4C525008C5007 /* AmsiPro-Black.ttf in Resources */,
 				B15416DE1EE5F673009F4AFB /* top-background.png in Resources */,
+				B12DAD301F04C9710028DBBD /* preview1.jpg in Resources */,
 				B1431D851EE4C525008C5007 /* AmsiPro-Bold.ttf in Resources */,
 				B1431D861EE4C525008C5007 /* AmsiPro-Light.ttf in Resources */,
 				B1431D871EE4C525008C5007 /* AmsiPro-Regular.ttf in Resources */,
@@ -187,7 +195,7 @@
 				B108214D1EE31A7200FD4EFE /* default-user.png in Resources */,
 				B10821431EE317A500FD4EFE /* LaunchScreen.storyboard in Resources */,
 				B10821401EE317A500FD4EFE /* Assets.xcassets in Resources */,
-				B1AF103D1EE8F5A2003F4178 /* preview.png in Resources */,
+				B12DAD311F04C9710028DBBD /* preview2.jpg in Resources */,
 				B108213E1EE317A500FD4EFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
