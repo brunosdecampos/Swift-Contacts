@@ -4,13 +4,9 @@ This is the implementation of a new contact's screen. You may use it for any fea
 
 
 <p align="center">
-&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/brunosdecampos/Swift-Contacts/master/Contacts/preview1.jpg" width="265" />
-&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/brunosdecampos/Swift-Contacts/master/Contacts/preview2.jpg" width="265" />
-&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/brunosdecampos/Swift-Contacts/master/Contacts/preview3.jpg" width="265" />
-&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/brunosdecampos/Swift-Contacts/master/Contacts/preview1.jpg" width="265" hspace="10" vspace="10" />
+<img src="https://raw.githubusercontent.com/brunosdecampos/Swift-Contacts/master/Contacts/preview2.jpg" width="265" hspace="10" vspace="10" />
+<img src="https://raw.githubusercontent.com/brunosdecampos/Swift-Contacts/master/Contacts/preview3.jpg" width="265" hspace="10" vspace="10" />
 </p>
 
 On this implementantion you will see a customized form and features such as:
