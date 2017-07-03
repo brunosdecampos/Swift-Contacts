@@ -17,3 +17,6 @@ On this implementantion you will see a customized form and features such as:
 - And the clean up of all fields at once.
 
 To be sure that everything is running as waited, alerts are being diplayed through the buttons actions.
+
+**Important:**
+> Since no constraints were added into the project, you must run the application under the iPhone 7 simulation so that it can run properly.
